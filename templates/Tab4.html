@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Diabetes</title>
+        <!-- for-mobile-apps -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Mercantile Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+              Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+            function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- //for-mobile-apps -->
+        <link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- js -->
+        <script type="text/javascript" src="static/js/jquery-2.1.4.min.js"></script>
+        <!-- //js -->
+        <link href='//fonts.googleapis.com/css?family=Sanchez:400,400italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        <!-- start-smoth-scrolling -->
+        <script type="text/javascript" src="static/js/move-top.js"></script>
+        <script type="text/javascript" src="static/js/easing.js"></script>
+        <script type="text/javascript">
+
+        </script>
+        <!-- start-smoth-scrolling -->
+    </head>
+    <body>
+        <!--navigation-->
+
+
+   <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 18px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+</style>
+
+        <ul>
+                                <li class="active"><a href="/UserHome" data-hover="">Home</a></li>
+                                <li class="active"><a href="/Tab1" data-hover="">Liver Disease</a></li>
+                                <li class="active"><a href="/Tab2" data-hover="">BMI Calculation</a></li>
+                                <li class="active"><a href="/Tab3" data-hover="">Migraine</a></li>
+                                <li class="active"><a href="/Tab4" data-hover="">Diabetes</a></li>
+
+  <li style="float:right"><a href="/logout" data-hover="">Logout</a></li>
+</ul>
+         <div class="steps">
+            <div class="container">
+                <center>
+                    <h1 class="head"></b>Inputs For Prediction </b></h1>
+
+                    <form name="sentMessage"  action="/Prediction4" method="POST">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <table width="461" height="458" border="0" align="center" >
+
+                                    <tr>
+                                        <td>
+                                    <label> Pregnancies </label></td>
+                                        <td>
+                                    <input name="pregnancies_input" type="text" >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                    <label>Glucose  </label></td>
+                                        <td>
+                                    <input name="glucose_input" type="text" ></td>
+                                    </tr>
+                                     <br>
+                                    <br>
+                                    <tr>
+                                        <td>
+                                    <label > Blood Pressure </label></td>
+                                        <td>
+                                    <input name="BP_input" type="text" ></td>
+                                    </tr>
+
+                                      <tr>
+                                        <td>
+                                    <label>Skin Thickness </label></td>
+
+                                        <td>
+                                     <input name="ST_input" type="text" ></td>
+                                        </td>
+                                    </tr>
+
+                                   <tr>
+                                        <td>
+                                    <label> Insulin </label></td>
+
+                                        <td>
+                                     <input name="insulin_input" type="text" ></td>
+                                        </td>
+                                    </tr>
+                                          <tr>
+                                        <td>
+                                    <label>BMI</label></td>
+
+                                        <td>
+                                     <input name="bmi_input" type="text" ></td>
+                                        </td>
+                                    </tr>
+
+                                          <tr>
+                                        <td>
+                                    <label>Diabetes Pedigree Function </label></td>
+
+                                        <td>
+                                     <input name="DPF_input" type="text" ></td>
+                                        </td>
+                                    </tr>
+
+                                           <tr>
+                                        <td>
+                                    <label>Age </label></td>
+
+                                        <td>
+                                     <input name="age_input" type="text" ></td>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2">
+                                    <input class="btn btn-info" name="submit" type="submit" value="Prediction4"> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input class="btn btn-info" name="cancel" type="reset" value="Reset"></td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </form>
+
+                </center>
+            </div>
+        </div>
+
+
+
+
+        <!-- //footer -->
+        <!-- for bootstrap working -->
+        <script src="static/js/bootstrap.js"></script>
+        <!-- //for bootstrap working -->
+        <!-- here stars scrolling icon -->
+        <script type="text/javascript">
+
+        </script>
+        <!-- //here ends scrolling icon -->
+    </body>
+</html>
